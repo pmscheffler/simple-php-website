@@ -66,4 +66,6 @@ function pageContent()
 function run()
 {
     include config('template_path').'/template.php';
+    
+    <b id="welcome">Welcome : <i><?php echo $login_session; ?></i></b>
 }
